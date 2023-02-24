@@ -24,20 +24,11 @@ export default {
       ],
     },
   },
+  nitro: {
+    preset: "vercel-edge",
+  },
   css: ["~/assets/css/main.css"],
-  modules: [
-    "@nuxtjs/supabase",
-    "@nuxtjs/i18n",
-    "nuxt-icon",
-    [
-      "@pinia/nuxt",
-      {
-        autoImports: ["defineStore", "acceptHMRUpdate"],
-      },
-    ],
-    "@pinia-plugin-persistedstate/nuxt",
-    "@nuxtjs/color-mode",
-  ],
+  modules: ["@nuxtjs/i18n", "nuxt-icon", "@nuxtjs/color-mode"],
   postcss: {
     plugins: {
       tailwindcss: {},
