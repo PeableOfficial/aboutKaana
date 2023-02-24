@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'ProductSans';
+    font-weight: 500;
+    src: url('~/assets/fonts/ProductSans/ProductSans-Medium.ttf') format('truetype');
+}
+
+/* HERO */
+.bg-gradient-to-l {
+    background-image: linear-gradient(to left, #3b75ba, #24a551, #e7ab24, #e83326);
+}
+
+.bg-clip-text {
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.text-transparent {
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -ms-text-fill-color: transparent;
+    -o-text-fill-color: transparent;
+    text-fill-color: transparent;
+}

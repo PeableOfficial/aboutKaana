@@ -1,0 +1,33 @@
+{
+  "header": {
+    "buttons": {
+      "becomeSponsor": "Become a sponsor",
+    },
+  },
+  "pages": {
+    "home": {
+      "title": {
+        "main": "Share your voice with",
+        "sub": "people who care",
+      },
+      "description": "Estos ajustes afectan a todas las cuentas de Kaana en este navegador.",
+      "AddThemeButton": "Añadir tema",
+    },
+  },
+  "banners": {
+    "welcome": "hello, welcome to %{app_name}!"
+  },
+  "buttons": {
+    "done": "Done",
+    "save": "Save",
+    "cancel": "Cancel",
+    "add": "Add",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "finish": "Finish",
+    "submit": "Submit",
+  },
+}
