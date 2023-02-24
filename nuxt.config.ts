@@ -1,4 +1,29 @@
 export default {
+  app: {
+    head: {
+      htmlAttrs: {
+        lang: "en",
+      },
+      charset: "utf-8",
+      viewport:
+        "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+      title: "Mention by Kaana",
+      meta: [
+        {
+          name: "description",
+          content:
+            "We believe in the potential of people when they can come together.",
+        },
+      ],
+      script: [
+        /*{ src: "//assets.kaana.io/js/jquery-3.5.1.min.js" },*/
+      ],
+      noscript: [{ children: "JavaScript is required" }],
+      link: [
+        /*{ rel: "stylesheet", href: "//assets.kaana.io/css/basic.css" },*/
+      ],
+    },
+  },
   nitro: {
     preset: "vercel-edge",
   },
