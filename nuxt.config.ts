@@ -24,9 +24,6 @@ export default {
       ],
     },
   },
-  nitro: {
-    preset: "vercel-edge",
-  },
   css: ["~/assets/css/main.css"],
   modules: [
     "@nuxtjs/supabase",
