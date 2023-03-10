@@ -7,7 +7,7 @@ export default {
       charset: "utf-8",
       viewport:
         "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
-      title: "Mention by Kaana",
+      title: "Kaana",
       meta: [
         {
           name: "description",
@@ -71,7 +71,7 @@ export default {
     },
   },
   colorMode: {
-    preference: "light", // default theme
-    dataValue: "theme", // activate data-theme in <html> tag
+    preference: "light",
+    dataValue: "theme",
   },
 };
